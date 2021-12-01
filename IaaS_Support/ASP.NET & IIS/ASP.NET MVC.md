@@ -1,0 +1,112 @@
+# ASP.NET
+
+ASP.NET 支持三种不同的开发模式：  
+Web Pages（Web 页面）、MVC（Model View Controller 模型-视图-控制器）、Web Forms（Web 窗体）
+
+## MVC 文件夹
+
+一个典型的 ASP.NET MVC Web 应用程序的文件夹内容如下所示：
+
+![Solution](https://www.runoob.com/wp-content/uploads/2013/07/pic_mvc_solution.jpg)
+
+**应用程序信息**
+
+Properties  
+References
+
+**应用程序文件夹**
+
+App_Data 文件夹  
+Content 文件夹  
+Controllers 文件夹  
+Models 文件夹  
+Scripts 文件夹  
+Views 文件夹  
+
+**配置文件**
+
+Global.asax  
+packages.config  
+Web.config
+
+所有的 MVC 应用程序的文件夹名称都是相同的。MVC 框架是基于默认的命名。控制器写在 Controllers 文件夹中，视图写在 Views 文件夹中，模型写在 Models 文件夹中。您不必再应用程序代码中使用文件夹名称。
+
+标准化的命名减少了代码量，同时有利于开发人员对 MVC 项目的理解。
+
+下面是对每个文件夹内容的简短概述：
+
+---
+
+## App_Data 文件夹
+
+**App_Data** 文件夹用于存储应用程序数据。
+
+我们将在本教程后面的章节中介绍添加 SQL 数据库到 App_Data 文件夹。
+
+---
+
+## Content 文件夹
+
+**Content** 文件夹用于存放静态文件，比如样式表（CSS 文件）、图标和图像。
+
+Visual Web Developer 会自动添加一个 **themes** 文件夹到 Content 文件夹中。themes 文件夹存放 jQuery 样式和图片。在项目中，您可以删除这个 themes 文件夹。
+
+Visual Web Developer 同时也会添加一个标准的样式表文件到项目中：即 content 文件夹中的 **Site.css** 文件。这个样式表文件是您想要改变应用程序样式时需要编辑的文件。
+
+![Content](https://www.runoob.com/wp-content/uploads/2013/07/pic_mvc_content.jpg)
+
+我们将在本教程的下一章中编辑这个样式表文件（Site.css）。
+
+---
+
+## Controllers 文件夹
+
+Controllers 文件夹包含负责处理用户输入和响应的控制器类。
+
+MVC 要求所有控制器文件的名称以 "Controller" 结尾。
+
+Visual Web Developer 已经创建好一个 Home 控制器（用于 Home 页面和 About 页面）和一个 Account 控制器（用于 Login 页面）：
+
+![Controllers](https://www.runoob.com/wp-content/uploads/2013/07/pic_mvc_controllers.jpg)
+
+我们将在本教程后面的章节中创建更多的控制器。
+
+---
+
+## Models 文件夹
+
+Models 文件夹包含表示应用程序模型的类。模型控制并操作应用程序的数据。
+
+我们将在本教程后面的章节中创建模型（类）。
+
+---
+
+## Views 文件夹
+
+Views 文件夹用于存储与应用程序的显示相关的 HTML 文件（用户界面）。
+
+Views 文件夹中包含每个控制器对应的一个文件夹。
+
+在 Views 文件夹中，Visual Web Developer 已经创建了一个 Account 文件夹、一个 Home 文件夹、一个 Shared 文件夹。
+
+Account 文件夹包含用于用户账号注册和登录的页面。
+
+Home 文件夹用于存储诸如 home 页和 about 页之类的应用程序页面。
+
+Shared 文件夹用于存储控制器间分享的视图（母版页和布局页）。
+
+![Views](https://www.runoob.com/wp-content/uploads/2013/07/pic_mvc_views.jpg)
+
+我们将在本教程的下一章中编辑这些布局文件。
+
+---
+
+## Scripts 文件夹
+
+Scripts 文件夹存储应用程序的 JavaScript 文件。
+
+默认情况下，Visual Web Developer 在这个文件夹中存放标准的 MVC、Ajax 和 jQuery 文件：
+
+![Scripts](https://www.runoob.com/wp-content/uploads/2013/07/pic_mvc_scripts.jpg)
+
+**注释：**名为 "modernizr" 的文件时用于在应用程序中支持 HTML5 和 CSS3 的 JavaScript 文件。
