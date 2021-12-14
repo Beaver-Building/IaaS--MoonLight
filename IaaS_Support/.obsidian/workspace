@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Browser/Sharing -- F12 DevTool.md",
-            "mode": "source"
+            "file": "Browser/Concept -- Websocket.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Browser/Sharing -- F12 DevTool.md",
+                "file": "Browser/Concept -- Websocket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "019caf99d0b379af",
   "lastOpenFiles": [
-    "Browser/Sharing -- F12 DevTool.md",
+    "Browser/Concept -- Websocket.md",
+    "Browser/Concept - Security Zones.md",
+    "Statics/Pasted image 20211201160257.png",
+    "Browser/Concept - HTTP Headers.md",
     "Browser/TS - Full Logs.md",
     "Browser/Sharing -- Browser Renderer Processes and Vite.md",
-    "Browser/Concept - Security Zones.md",
+    "Browser/Sharing -- F12 DevTool.md",
+    "Browser/Script -- Count ByteSize byJavascript.md",
     "Browser/Concept - IE Readiness.md",
-    "Browser/Concept - HTTP Headers.md",
-    "ASP.NET & IIS/ASP.NET MVC.md",
-    "Tech Share - JS quick Demo.md",
-    "Tools for Microsoft Developer Support for Internet.md",
-    "ASP.NET MVC.md"
+    "Azure Bot Service/Concept - _What is Bot.md"
   ]
 }

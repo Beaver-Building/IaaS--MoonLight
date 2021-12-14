@@ -27,3 +27,33 @@ Additionally, bots may use other Azure services, such as:
 
 -   Azure Cognitive Services to build intelligent applications
 -   Azure Storage for cloud storage solution
+
+
+## Summary
+### Client / Channel
+	Authentication
+	Starting a conversation
+	Sending Messages
+	Receiving Messages
+
+### Web Service
+	Bot Framework Connector / Bot Framework Service
+		REST API
+			To access the Bot Connector service, use the serviceUrl value as the base URI for API requests. The serviceUrl is Channel based.
+	Bot Message endpoints / Your Bot
+		Service Resource
+			Message endpoint
+				The template implements a web service with a messaging endpoint. The service extracts the authentication header and request payload and forwards them to the adapter.
+			Bot Adapter
+				The adapter receives activities from the messaging endpoint, forwards them to the bot's turn handler, and catches any errors or exceptions the bot's logic doesn't catch.
+
+The adapter allows you to add your own on turn error handler.
+			Bot Object
+				The bot object uses an activity handler and implements handlers for the activity types it will recognize and react to.
+
+### More Info
+	BotBuilder Samples
+		C# ASP.NET Core MVC
+		JS/TS Restify
+		Java Spring
+		Python AIOHTTP
