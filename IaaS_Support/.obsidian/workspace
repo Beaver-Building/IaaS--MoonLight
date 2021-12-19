@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Browser/Concept -- Websocket.md",
+            "file": "Azure Bot Service/Concept - Bot analystics.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Browser/Concept -- Websocket.md",
+                "file": "Azure Bot Service/Concept - Bot analystics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "019caf99d0b379af",
   "lastOpenFiles": [
+    "Azure Bot Service/Concept - Bot analystics.md",
+    "ASP.NET & IIS/ASP.NET MVC.md",
     "Browser/Concept -- Websocket.md",
     "Browser/Concept - Security Zones.md",
     "Statics/Pasted image 20211201160257.png",
@@ -95,8 +97,6 @@
     "Browser/TS - Full Logs.md",
     "Browser/Sharing -- Browser Renderer Processes and Vite.md",
     "Browser/Sharing -- F12 DevTool.md",
-    "Browser/Script -- Count ByteSize byJavascript.md",
-    "Browser/Concept - IE Readiness.md",
-    "Azure Bot Service/Concept - _What is Bot.md"
+    "Browser/Script -- Count ByteSize byJavascript.md"
   ]
 }
